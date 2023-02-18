@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem;
+}
+
+.fruit-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.fruit-list-section > h1 {
+  text-decoration: underline;
+}
+
+.fruit-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.cart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 75%;
+}
+.cart-section > h1 {
+  text-decoration: underline;
+}
